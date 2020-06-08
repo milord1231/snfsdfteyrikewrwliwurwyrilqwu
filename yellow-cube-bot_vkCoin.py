@@ -17,8 +17,6 @@ import aiohttp
 import asyncio
 import random
 import os
-os.startfile(r'longpool.py')
-os.startfile(r'timer.py')
 # Login = padenev2005@gmail.com
 # Password = Klopik21*
 conn = sqlite3.connect(r"all_inf.db")
