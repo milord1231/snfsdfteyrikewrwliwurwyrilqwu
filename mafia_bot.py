@@ -20,7 +20,7 @@ import requests
 import json
 from datetime import datetime
 
-QIWI_TOKEN = QIWI_TOKEN1
+QIWI_TOKEN1 = QIWI_TOKEN
 QIWI_ACCOUNT = NUMBER
 
 bot = Bot(A_TOKEN)
@@ -35,7 +35,7 @@ longpoll_type = VkLongPoll(vk_session)
 print('\n\n\n|---------------|\n'
 	'|--BOT RUNNING--|\n'
 	'|---------------|\n')
-api = QApi(token=QIWI_TOKEN, phone=QIWI_ACCOUNT)
+api = QApi(token=QIWI_TOKEN1, phone=QIWI_ACCOUNT)
 #  🌕
 
 
