@@ -20,7 +20,7 @@ import requests
 import json
 from datetime import datetime
 
-QIWI_TOKEN = QIWI_TOKEN
+QIWI_TOKEN = QIWI_TOKEN1
 QIWI_ACCOUNT = NUMBER
 
 bot = Bot(A_TOKEN)
