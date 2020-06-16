@@ -20,22 +20,22 @@ import requests
 import json
 from datetime import datetime
 
-QIWI_TOKEN = '2156b07f21e705a9bf7af5ce1a8a4db2'
-QIWI_ACCOUNT = '+79877353524'
+QIWI_TOKEN = QIWI_TOKEN
+QIWI_ACCOUNT = NUMBER
 
-bot = Bot("89ac98809b279615b01aae1c6453bb548a19862febba76743bba42526779c1fc0fe612e47322937a202da")
+bot = Bot(A_TOKEN)
 conn = sqlite3.connect(r"inf_users.db")
 c = conn.cursor()
 sqlite3.connect(":memory:", check_same_thread=False)
 group_id = '-195266218'
-vk_session = vk_api.VkApi(token='89ac98809b279615b01aae1c6453bb548a19862febba76743bba42526779c1fc0fe612e47322937a202da')
-token = '89ac98809b279615b01aae1c6453bb548a19862febba76743bba42526779c1fc0fe612e47322937a202da'
+vk_session = vk_api.VkApi(token=A_TOKEN)
+token = A_TOKEN
 from vk_api.longpoll import VkLongPoll, VkEventType
 longpoll_type = VkLongPoll(vk_session)
 print('\n\n\n|---------------|\n'
 	'|--BOT RUNNING--|\n'
 	'|---------------|\n')
-api = QApi(token="2156b07f21e705a9bf7af5ce1a8a4db2", phone='+79877353524')
+api = QApi(token=QIWI_TOKEN, phone=QIWI_ACCOUNT)
 #  🌕
 
 
