@@ -22,14 +22,13 @@ from datetime import datetime
 
 QIWI_TOKEN1 = 'QIWI_TOKEN'
 QIWI_ACCOUNT = 'NUMBER'
-
-bot = Bot('A_TOKEN')
+token = 'A_TOKEN'
+bot = Bot(token)
 conn = sqlite3.connect(r"inf_users.db")
 c = conn.cursor()
 sqlite3.connect(":memory:", check_same_thread=False)
 group_id = '-195266218'
-vk_session = vk_api.VkApi(token='A_TOKEN')
-token = 'A_TOKEN'
+vk_session = vk_api.VkApi(token=token)
 from vk_api.longpoll import VkLongPoll, VkEventType
 longpoll_type = VkLongPoll(vk_session)
 print('\n\n\n|---------------|\n'
