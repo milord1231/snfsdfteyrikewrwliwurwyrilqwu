@@ -12,8 +12,8 @@ setuptools==41.2.0
 six==1.15.0
 soupsieve==2.0.1
 urllib3==1.25.9
-vkcoin==2.0.4
-vkcoinapi==1.2.7
 vk_api==11.8.0
 websocket==0.2.1
 websocket-client==0.57.0
+vkbottle==2.7.5
+SimpleQIWI==0.7
