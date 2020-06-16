@@ -22,7 +22,7 @@ from datetime import datetime
 
 QIWI_TOKEN1 = 'QIWI_TOKEN'
 QIWI_ACCOUNT = 'NUMBER'
-token = 'A_TOKEN'
+token = str('A_TOKEN')
 bot = Bot(token)
 conn = sqlite3.connect(r"inf_users.db")
 c = conn.cursor()
