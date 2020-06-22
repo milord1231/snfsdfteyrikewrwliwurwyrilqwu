@@ -17,3 +17,4 @@ websocket==0.2.1
 websocket-client==0.57.0
 vkbottle==2.7.5
 SimpleQIWI==0.7
+pip3.8 install https://github.com/timoniq/vkbottle/archive/master.zip -user
